@@ -1,0 +1,157 @@
+a, a:hover {
+	color: #EA1616;
+}
+body {
+   background: #000;
+}
+body.notfound,
+body.signin {
+   background: #e5e5e5;
+}
+.menutoggle {
+    color: #111;
+}
+.headermenu .dropdown-menu-usermenu {
+    background: #000;
+    color: #888;
+}
+.headermenu .dropdown-menu li a:hover {
+    background: #fff;
+    color: #111;
+}
+.logopanel h1 {
+   text-align: center;
+}
+.nav-bracket {
+   margin-top: 10px
+}
+.nav-bracket > li > a {
+   color: #888;
+}
+.nav-bracket > li > a:hover,
+.nav-bracket > li > a:active,
+.nav-bracket > li > a:focus {
+	color: #111;
+}
+.nav-bracket > li.active > a,
+.nav-bracket > li.active > a:hover,
+.nav-bracket > li.active > a:focus {
+   background-color: #00468f;
+   color: #fff;
+}
+.mainpanel {
+   background: #e5e5e5;
+}
+.pageheader {
+	border-top: 1px solid #ddd;
+}
+.pageheader h2 {
+	font-size: 24px;
+   color: #111;
+}
+.pageheader .breadcrumb-wrapper {
+    top: 18px;
+}
+
+/*----*/
+
+.btn-default {
+    background: #f8f8f8;
+    color: #666;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #444;
+    border-color: #444;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #333;
+    border-color: #333;
+}
+
+/*----*/
+
+.signinpanel form {
+    background: #fff;
+    padding: 30px 30px 40px;
+}
+.signinpanel form .logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.signinpanel form .logo img {
+    width: 70%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #444;
+    border-color: #444;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #333;
+    border-color: #333;
+}
+.filter-btn {
+    margin-top: 26px;
+}
+#productList .filemanager .fm-group {
+    display: block;
+}
+#productList .filemanager .fm-title {
+    margin: 5px 30px 0px 0px;
+    font-size: 14px;
+}
+#productList .filemanager .thmb-prev {
+    margin-top: 20px;
+}
+#productList .filemanager .thmb-prev img {
+    height: 200px;
+    margin: 0px auto;
+}
+
+#photoList.filemanager .fm-title {
+    margin: 25px 0px 0px;
+}
+#photoList.filemanager .thmb-prev img {
+    height: 200px;
+    margin: 0px auto;
+}
+
+/*----*/
+
+#map-canvas {
+  width: 100%;
+  height: 500px;
+}
+.mini-map-canvas {
+  margin-bottom: 15px;
+  width: 100%;
+  min-height: 300px;
+}
+
+/*----*/
+
+.mt25 {
+	margin-top: 25px;
+}
+.form-control
+{
+	padding: 8px 10px;
+}
+.chosen-container-single .chosen-single
+{
+	padding: 6px 10px;
+}
+
+form .form-group:last-child {
+   margin-bottom: 15px;
+}
+form .panel-footer
+{
+	padding: 15px;
+}
+.has-feedback select ~ i.form-control-feedback {
+    width: 20px;
+    right: 25px;
+}

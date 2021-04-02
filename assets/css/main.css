@@ -1,0 +1,269 @@
+body {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    margin: 0;
+    font-size: 17px;
+	line-height:26px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    padding-top: 40px;
+}
+
+.container {
+	max-width:800px;
+	width:100%;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 50%;
+    margin: 0 0 80px 0;
+}
+
+
+.personal_details {
+    margin-bottom: 50px;
+}
+
+.personal_details h2 {
+    color: #1da0dc;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.personal_details h6 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: left;
+}
+
+.personal_details h5 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 40px 0 20px 0;
+    text-align: left;
+}
+
+.personal_details ul {
+    margin: 30px 0 0 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.personal_details ul li {
+    display: block;
+    list-style: none;
+    margin: 0 0 30px 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+}
+.personal_details textarea,
+.personal_details input[type="text"],
+.personal_details input[type="number"],
+.personal_details input[type="email"]{
+    margin: 0 0 0 0;
+    background: #fcfcfc;
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid #ebeced;
+    outline: none;
+    color: #999;
+}
+
+.personal_details select {
+    margin: 0 0 0 0;
+    background: #fcfcfc;
+    width: 100%;
+    padding: 14px 15px;
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid #ebeced;
+    outline: none;
+    color: #999;
+}
+.image_upload {
+    margin: 15px 0 0 0;
+}
+.img_submit,
+.img_submit:hover,
+.img_submit:focus {
+    border: none;
+    background-color: #80c24a;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 5px 20px;
+    outline: none;
+    float: right;
+    cursor: pointer;
+}
+
+
+.submit_btn {
+    border: none;
+    background-color: #0075ff;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 12px 20px;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add_more,
+.add_more:hover,
+.add_more:focus {
+    background-color: #27aae2;
+    background-image: url(../images/add.png);
+    background-repeat: no-repeat;
+    background-position: 12px 13px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 15px 10px 45px;
+    margin: 20px 0 0 0;
+    text-align: center;
+    outline: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.width {
+    width: 49% !important;
+}
+
+
+/*--------------------------------------
+		        Media Query
+----------------------------------------*/
+
+
+
+@media (max-width: 1600px) {
+
+}
+
+@media (max-width: 1500px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1100px) {
+
+}
+
+
+@media (max-width: 991px) {
+ 
+.logo img {
+    width: 80%;
+}
+    
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 600px) {
+.width {
+    width: 48% !important;
+}
+
+}
+
+@media (max-width: 500px) {
+
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+.content_section {
+    padding: 30px 0;
+}
+
+.yes_btn {
+    background-color: #80c24a;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: normal;
+    margin: 30px 0 0 0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.yes_btn:hover,
+.yes_btn:focus {
+    background-color: #689f37;
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+.membership_section{
+    color: #000;
+}
+::placeholder{
+    color: #000 !important;
+}
+:-ms-input-placeholder{
+    color: #000 !important;
+}
+::-ms-input-placeholder{
+    color: #000 !important;
+}
+.membership_section h2 {
+    text-align: center;
+}
+.membership_section label {
+    font-weight: 300;
+    cursor: pointer;
+}
+.membership_section select#bgroup {
+    cursor: pointer;
+    color: #000;
+}
